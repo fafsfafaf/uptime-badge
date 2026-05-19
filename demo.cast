@@ -1,0 +1,6 @@
+{"version": 2, "width": 80, "height": 24, "timestamp": 1779202834, "idle_time_limit": 1.5, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "title": "uptime-badge — self-hosted SVG · github.com/fafsfafaf/uptime-badge"}
+[0.004672, "o", "$ bash uptime-badge.sh https://example.com badge.svg --checks 8\r\n"]
+[0.518004, "o", "uptime-badge: https://example.com — 100.0% (8/8 ok, avg 40ms)  →  /tmp/demo-badge.svg\r\n"]
+[0.518347, "o", "\r\n"]
+[0.518429, "o", "--- generated badge.svg (head) ---\r\n"]
+[0.519857, "o", "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"108\" height=\"20\" role=\"img\" aria-label=\"uptime: 100.0%\">\r\n  <title>uptime: 100.0%</title>\r\n  <linearGradient id=\"s\" x2=\"0\" y2=\"100%\">\r\n    <stop offset=\"0\" stop-color=\"#bbb\" stop-opacity=\".1\"/>\r\n    <stop offset=\"1\" stop-opacity=\".1\"/>\r\n  </linearGradient>\r\n  <clipPath id=\"r\"><rect width=\"108\" height=\"20\" rx=\"3\" fill=\"#fff\"/></clipPath>\r\n  <g clip-path=\"url(#r)\">\r\n"]

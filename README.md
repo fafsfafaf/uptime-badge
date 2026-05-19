@@ -11,6 +11,22 @@
 bash uptime-badge.sh https://example.com badge.svg --checks 10
 ```
 
+## Demo
+
+Recorded with [asciinema](https://asciinema.org/). View it locally:
+
+```bash
+# install asciinema if needed: pip install asciinema
+asciinema play demo.cast
+```
+
+Or upload to asciinema.org for an embeddable badge:
+
+```bash
+asciinema auth      # one-time, opens browser
+asciinema upload demo.cast
+```
+
 ## Why
 
 Shields.io has an "uptime" badge but it depends on third-party uptime services or paid integrations. If you already run a cron, you can generate the same SVG yourself in 30 lines of bash, host it next to your site, and own the data.
